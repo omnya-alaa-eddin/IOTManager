@@ -5,3 +5,8 @@ The Project consists of two folders for
 
 Please add your credentials to application.properties 
 
+To trigger the Lambda function we will create Topic Rule 
+with SQL statement:
+SELECT * FROM 'dynamoDBTopi'
+And the action for the rule will be the Lambda function
+
